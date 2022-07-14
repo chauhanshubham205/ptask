@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto&display=swap');
+html{
+    background: linear-gradient(white,rgba(255, 255, 101, 0.753));
+    font-family: 'Roboto', sans-serif;
+    /* line-height: 1.2vw; */
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+    /* align-items: center; */
+
+}
+.logo{
+    width: 29vw;
+}
+.section{
+    width: auto;
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+}
+.block1{
+    width: 30vw;
+    height: fit-content;
+    /* border: 1px solid black; */
+}
+.block1 img{
+    width: inherit;
+}
+.block2{
+    /* border: 1px solid rgb(192, 16, 16); */
+    width: 70vw;
+    height: min-content;
+    text-align: justify;
+}
+.block2 img{
+    width: 65vw;
+}
+.block2 .p{
+    font-weight: bold;
+    font-size: 1.4vw;
+}
+.p li{
+    color: #131313;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding: 0 5vw 0 2vw;
+}
+.block2 p{
+    color: #131313;
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding: 0 4vw 0 2vw;
+}
+.line{
+    margin: 3vw;
+    color: #131313;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+.moters{
+    width: 85vw;
+    margin-top: 10vw;
+    margin: 0 4vw;
+}
+.line p{
+    text-align: center;
+}
+hr{
+    height: 1px;
+    color: red;
+}
+.bLine{
+    text-align: center;
+    padding: 0 3vw;
+}
+.bLine p{
+    font-weight: 700;
+    font-size: 1.3vw;
+
+}
+.bLine .p1{
+    font-weight: 500;
+    font-size: 1.1vw;
+
+}
+footer{
+    margin: 2vw .5vw .5vw .5vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 8vw;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+a{
+    display: flex;
+    color: azure;
+    /* font-size: 2vw; */
+    text-decoration: none;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .logo{
+        width: 50vw;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .block2{
+        width: 100vw;
+    }
+    .block2 img {
+        width: 88vw;
+        margin: 0 7vw;
+    }
+    .block2 .p{
+        margin: 0 7vw;
+        font-size: 3vw;
+        
+    }
+    .block2 li{
+        font-size: 2.5vw;
+
+    }
+    .block2 p{
+        font-size: 2.5vw;
+        margin: 0 7vw;
+
+    }
+    .block1{
+        width: 100vw;
+    }
+    .block1 img {
+        width: 40vw;
+        margin: 0 30vw;
+    }
+    .line{
+        font-size: 2.3vw;
+    }
+    .moters {
+        width: 94vw;
+        margin: 0;
+    }
+    .bLine{
+        line-height: 1;
+    }
+    .bLine p {
+        font-size: 2.6vw;
+    }
+    .bLine .p1{
+        font-size: 2vw;
+    }
+    footer{
+        font-size: 2.2vw;
+    }
+}
