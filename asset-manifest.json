@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pumps/static/css/main.65cab45d.css",
+    "main.js": "/pumps/static/js/main.88b5618f.js",
+    "static/js/787.ca029e3b.chunk.js": "/pumps/static/js/787.ca029e3b.chunk.js",
+    "index.html": "/pumps/index.html",
+    "main.65cab45d.css.map": "/pumps/static/css/main.65cab45d.css.map",
+    "main.88b5618f.js.map": "/pumps/static/js/main.88b5618f.js.map",
+    "787.ca029e3b.chunk.js.map": "/pumps/static/js/787.ca029e3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65cab45d.css",
+    "static/js/main.88b5618f.js"
+  ]
+}
